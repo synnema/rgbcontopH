@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Po 14. březen 2016, 19:16:37 CET
+PCBNEW-BOARD Version 1 date Po 14. březen 2016, 13:02:41 CET
 
 # Created by Pcbnew(2012-apr-16-27)-stable
 
@@ -59,7 +59,7 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -83,7 +83,7 @@ Li DIP-28__300
 Cd 28 pins DIL package, round pads, width 300mil
 Kw DIL
 Sc 56E6A85A
-AR DIP-28__300
+AR 
 Op 0 0 0
 T0 -4500 0 600 450 2700 113 N V 21 N "U***"
 T1 4000 0 600 450 2700 113 N V 21 N "DIP-28__300"
