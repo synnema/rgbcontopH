@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Po 14. březen 2016, 13:02:18 CET
+EESchema Schematic File Version 2  date Po 14. březen 2016, 17:50:40 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:layout-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
@@ -43,6 +44,163 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 3800 3700
+Wire Wire Line
+	3700 3700 4400 3700
+Wire Wire Line
+	3700 3700 3700 2800
+Wire Wire Line
+	3700 2800 4400 2800
+Connection ~ 3800 3300
+Wire Wire Line
+	3800 3500 3800 3100
+Wire Wire Line
+	3800 3100 4400 3100
+Wire Wire Line
+	4400 3500 4400 3300
+Wire Wire Line
+	4400 3700 4400 5000
+Wire Wire Line
+	4400 5000 5300 5000
+$Comp
+L CSMALL C?
+U 1 1 56E6EA03
+P 4400 3600
+F 0 "C?" H 4425 3650 30  0000 L CNN
+F 1 "15p" H 4425 3550 30  0000 L CNN
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CSMALL C?
+U 1 1 56E6E9FE
+P 3800 3600
+F 0 "C?" H 3825 3650 30  0000 L CNN
+F 1 "15p" H 3825 3550 30  0000 L CNN
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 56E6E934
+P 4100 3300
+F 0 "X?" H 4100 3450 60  0000 C CNN
+F 1 "CRYSTAL 12MHz" H 4100 3150 40  0000 C CNN
+	1    4100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 56E6E8CC
+P 10800 3650
+F 0 "C?" H 10850 3750 50  0000 L CNN
+F 1 "C" H 10850 3550 50  0000 L CNN
+	1    10800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 56E6E8B3
+P 10750 2950
+F 0 "X?" H 10750 3100 60  0000 C CNN
+F 1 "CRYSTAL" H 10750 2800 60  0000 C CNN
+	1    10750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CSMALL C?
+U 1 1 56E6E8A6
+P 10800 2350
+F 0 "C?" H 10825 2400 30  0000 L CNN
+F 1 "CSMALL" H 10825 2300 30  0000 L CNN
+	1    10800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_P Q?
+U 1 1 56E6E848
+P 10850 1600
+F 0 "Q?" H 10850 1790 60  0000 R CNN
+F 1 "MOSFET_P" H 10850 1420 60  0000 R CNN
+	1    10850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 56E6E837
+P 10850 900
+F 0 "Q?" H 10860 1070 60  0000 R CNN
+F 1 "MOS_N" H 10860 750 60  0000 R CNN
+	1    10850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHDARL U?
+U 1 1 56E6E80F
+P 10300 6350
+F 0 "U?" H 10310 6670 70  0000 C CNN
+F 1 "PHDARL" H 10310 6030 70  0000 C CNN
+	1    10300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHTRANS U?
+U 1 1 56E6E7FF
+P 8650 6350
+F 0 "U?" H 8600 6700 70  0000 C CNN
+F 1 "PHTRANS" H 8600 6000 70  0000 C CNN
+	1    8650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56E6E7CF
+P 9050 3350
+F 0 "R?" V 9130 3350 50  0000 C CNN
+F 1 "R" V 9050 3350 50  0000 C CNN
+	1    9050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 56E6E7A3
+P 8850 2750
+F 0 "SW?" H 9000 2860 50  0000 C CNN
+F 1 "SW_PUSH" H 8850 2670 50  0000 C CNN
+	1    8850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 56E6E758
+P 8900 2150
+F 0 "Q?" H 8910 2320 60  0000 R CNN
+F 1 "MOS_N" H 8910 2000 60  0000 R CNN
+	1    8900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 56E6E6FA
+P 8000 2200
+F 0 "D?" H 8000 2300 50  0000 C CNN
+F 1 "LED" H 8000 2100 50  0000 C CNN
+	1    8000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_2 J?
+U 1 1 56E6E639
+P 3000 1900
+F 0 "J?" H 2925 2150 60  0000 C CNN
+F 1 "USB_2" H 3050 1600 60  0001 C CNN
+F 4 "VCC" H 3325 2050 50  0001 C CNN "VCC"
+F 5 "D+" H 3300 1950 50  0001 C CNN "Data+"
+F 6 "D-" H 3300 1850 50  0001 C CNN "Data-"
+F 7 "GND" H 3325 1750 50  0001 C CNN "Ground"
+	1    3000 1900
+	1    0    0    -1  
+$EndComp
 $Comp
 L ATMEGA8-P IC?
 U 1 1 56E6A846
