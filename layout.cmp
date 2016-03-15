@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Út 15. březen 2016, 12:13:32 CET
+
+BeginCmp
+TimeStamp = /56E6FA8C;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EDF9;
+Reference = C2;
+ValeurCmp = 15p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6E9FE;
+Reference = C3;
+ValeurCmp = 33p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EE09;
+Reference = C4;
+ValeurCmp = 15p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EA03;
+Reference = C5;
+ValeurCmp = 33p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6FAF2;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EDD7;
+Reference = IC1;
+ValeurCmp = ATMEGA8-P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6A846;
+Reference = IC2;
+ValeurCmp = ATMEGA8-P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EF62;
+Reference = J1;
+ValeurCmp = externí_zdroj_5V;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EFF1;
+Reference = J2;
+ValeurCmp = USB_2;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6F717;
+Reference = JP1;
+ValeurCmp = JUMPER-slow_sck;
+IdModule  = SW_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6F091;
+Reference = R1;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6F07C;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6F06F;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6F083;
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6F089;
+Reference = R5;
+ValeurCmp = 470;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6EDEF;
+Reference = X1;
+ValeurCmp = CRYSTAL_12MHz;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E6E934;
+Reference = X2;
+ValeurCmp = CRYSTAL_12MHz;
+IdModule  = R1;
+EndCmp
+
+EndListe
