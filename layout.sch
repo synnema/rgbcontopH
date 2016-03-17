@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Út 15. březen 2016, 14:11:44 CET
+EESchema Schematic File Version 2  date Čt 17. březen 2016, 15:31:34 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 mar 2016"
+Date "17 mar 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +44,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_6 P1
+U 1 1 56EABEA5
+P 4250 5650
+F 0 "P1" V 4200 5650 60  0000 C CNN
+F 1 "CONN_6" V 4300 5650 60  0000 C CNN
+	1    4250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5900 3900 5900
+Wire Wire Line
+	3600 5700 3900 5700
+Wire Wire Line
+	3600 5500 3900 5500
 Wire Wire Line
 	1450 4950 1400 4950
 Wire Wire Line
@@ -169,13 +184,19 @@ Connection ~ 1400 4400
 Wire Wire Line
 	950  5000 900  5000
 Connection ~ 900  5000
+Wire Wire Line
+	3600 5400 3900 5400
+Wire Wire Line
+	3600 5600 3900 5600
+Wire Wire Line
+	3600 5800 3900 5800
 Text Label 8550 7350 0    60   ~ 0
 Basic usb_asp programmer with apl. circuit - atmega8
 $Comp
-L GND #PWR01
+L GND #PWR5
 U 1 1 56E6FC1F
 P 5900 4900
-F 0 "#PWR01" H 5900 4900 30  0001 C CNN
+F 0 "#PWR5" H 5900 4900 30  0001 C CNN
 F 1 "GND" H 5900 4830 30  0001 C CNN
 	1    5900 4900
 	1    0    0    -1  
@@ -203,10 +224,10 @@ F 1 "1uF" H 950 4550 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR3
 U 1 1 56E6F74F
 P 5700 2500
-F 0 "#PWR02" H 5700 2500 30  0001 C CNN
+F 0 "#PWR3" H 5700 2500 30  0001 C CNN
 F 1 "GND" H 5700 2430 30  0001 C CNN
 	1    5700 2500
 	1    0    0    -1  
@@ -221,10 +242,10 @@ F 1 "JUMPER-slow_sck" H 5400 2270 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR4
 U 1 1 56E6F4BB
 P 5900 1600
-F 0 "#PWR03" H 5900 1600 30  0001 C CNN
+F 0 "#PWR4" H 5900 1600 30  0001 C CNN
 F 1 "GND" H 5900 1530 30  0001 C CNN
 	1    5900 1600
 	1    0    0    -1  
@@ -301,10 +322,10 @@ F 7 "GND" H 6425 1150 50  0001 C CNN "Ground"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR1
 U 1 1 56E6EE76
 P 2600 4150
-F 0 "#PWR04" H 2600 4150 30  0001 C CNN
+F 0 "#PWR1" H 2600 4150 30  0001 C CNN
 F 1 "GND" H 2600 4080 30  0001 C CNN
 	1    2600 4150
 	1    0    0    -1  
@@ -347,10 +368,10 @@ F 2 "DIL28" H 2000 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR2
 U 1 1 56E6ED32
 P 2600 7400
-F 0 "#PWR05" H 2600 7400 30  0001 C CNN
+F 0 "#PWR2" H 2600 7400 30  0001 C CNN
 F 1 "GND" H 2600 7330 30  0001 C CNN
 	1    2600 7400
 	1    0    0    -1  
