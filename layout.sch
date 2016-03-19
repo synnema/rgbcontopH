@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Čt 17. březen 2016, 15:31:34 CET
+EESchema Schematic File Version 2  date So 19. březen 2016, 18:29:40 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "17 mar 2016"
+Date "19 mar 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,15 +44,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_6 P1
-U 1 1 56EABEA5
-P 4250 5650
-F 0 "P1" V 4200 5650 60  0000 C CNN
-F 1 "CONN_6" V 4300 5650 60  0000 C CNN
-	1    4250 5650
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	3850 4800 3600 4800
+Connection ~ 3700 5000
+Wire Wire Line
+	3850 5000 3600 5000
+Connection ~ 3800 5200
+Wire Wire Line
+	3850 5200 3600 5200
+Wire Wire Line
+	3600 6800 3900 6800
+Wire Wire Line
+	3600 6600 3900 6600
+Wire Wire Line
+	3600 6400 3850 6400
+Wire Wire Line
+	3600 6200 3850 6200
+Connection ~ 1450 4400
+Wire Wire Line
+	1450 4500 1450 4400
+Connection ~ 900  4400
+Connection ~ 2600 4400
 Wire Wire Line
 	3600 5900 3900 5900
 Wire Wire Line
@@ -60,16 +72,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 5500 3900 5500
 Wire Wire Line
-	1450 4950 1400 4950
-Wire Wire Line
-	1450 4950 1450 5000
-Connection ~ 900  4400
-Wire Wire Line
 	900  4450 900  1150
 Wire Wire Line
 	5900 4700 5900 4900
-Wire Wire Line
-	1400 4950 1400 4800
 Wire Wire Line
 	3600 3050 4300 3050
 Wire Wire Line
@@ -77,13 +82,9 @@ Wire Wire Line
 Wire Wire Line
 	5000 1650 5000 1350
 Wire Wire Line
-	3600 5200 3900 5200
+	3800 5200 3800 1950
 Wire Wire Line
-	3900 5200 3900 1950
-Wire Wire Line
-	3900 1950 3600 1950
-Wire Wire Line
-	3600 5000 3700 5000
+	3800 1950 3600 1950
 Wire Wire Line
 	3700 5000 3700 1750
 Wire Wire Line
@@ -100,7 +101,7 @@ Wire Wire Line
 	4900 1450 4900 1250
 Connection ~ 4400 1150
 Wire Wire Line
-	4400 1250 4400 1150
+	4400 1150 4400 1250
 Connection ~ 2600 1150
 Wire Wire Line
 	900  1150 5900 1150
@@ -149,18 +150,16 @@ Wire Wire Line
 Wire Wire Line
 	4400 1450 3600 1450
 Wire Wire Line
-	1200 1450 1200 1150
+	1200 1150 1200 1450
 Connection ~ 1200 1150
 Wire Wire Line
 	5100 2350 3600 2350
 Wire Wire Line
 	1700 4700 1700 4300
 Wire Wire Line
-	3600 1850 3800 1850
+	3600 1850 3750 1850
 Wire Wire Line
-	3800 1850 3800 5100
-Wire Wire Line
-	3800 5100 3600 5100
+	3750 1850 3750 5100
 Wire Wire Line
 	3600 1650 4000 1650
 Wire Wire Line
@@ -177,10 +176,6 @@ Wire Wire Line
 Connection ~ 1700 7300
 Wire Wire Line
 	900  4400 5900 4400
-Connection ~ 2600 4400
-Wire Wire Line
-	1400 4500 1400 4400
-Connection ~ 1400 4400
 Wire Wire Line
 	950  5000 900  5000
 Connection ~ 900  5000
@@ -190,6 +185,65 @@ Wire Wire Line
 	3600 5600 3900 5600
 Wire Wire Line
 	3600 5800 3900 5800
+Wire Wire Line
+	1450 5000 1450 4900
+Wire Wire Line
+	3600 6100 3850 6100
+Wire Wire Line
+	3600 6300 3850 6300
+Wire Wire Line
+	3600 6500 3850 6500
+Wire Wire Line
+	3600 6700 3900 6700
+Wire Wire Line
+	3900 6900 3900 7050
+Wire Wire Line
+	3900 7050 4450 7050
+Wire Wire Line
+	4450 7050 4450 4700
+Wire Wire Line
+	4450 4700 3600 4700
+Wire Wire Line
+	3850 5100 3600 5100
+Connection ~ 3750 5100
+Wire Wire Line
+	3850 4900 3600 4900
+$Comp
+L CONN_5 P?
+U 1 1 56ED8B75
+P 4250 5000
+F 0 "P?" V 4200 5000 50  0000 C CNN
+F 1 "CONN_5" V 4300 5000 50  0000 C CNN
+	1    4250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P?
+U 1 1 56ED8B6B
+P 4250 6750
+F 0 "P?" V 4200 6750 50  0000 C CNN
+F 1 "CONN_4" V 4300 6750 50  0000 C CNN
+	1    4250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P?
+U 1 1 56ED8A65
+P 4250 6300
+F 0 "P?" V 4200 6300 50  0000 C CNN
+F 1 "CONN_5" V 4300 6300 50  0000 C CNN
+	1    4250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 56EABEA5
+P 4250 5650
+F 0 "P1" V 4200 5650 60  0000 C CNN
+F 1 "CONN_6" V 4300 5650 60  0000 C CNN
+	1    4250 5650
+	1    0    0    -1  
+$EndComp
 Text Label 8550 7350 0    60   ~ 0
 Basic usb_asp programmer with apl. circuit - atmega8
 $Comp
@@ -208,10 +262,10 @@ Usb for PC programming
 $Comp
 L LED D1
 U 1 1 56E6FAF2
-P 1400 4700
-F 0 "D1" H 1400 4800 50  0000 C CNN
-F 1 "LED" H 1400 4600 50  0000 C CNN
-	1    1400 4700
+P 1450 4700
+F 0 "D1" H 1450 4800 50  0000 C CNN
+F 1 "LED" H 1450 4600 50  0000 C CNN
+	1    1450 4700
 	0    -1   1    0   
 $EndComp
 $Comp
