@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date So 19. březen 2016, 18:29:40 CET
+EESchema Schematic File Version 2  date Ne 20. březen 2016, 19:17:08 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -209,28 +209,28 @@ Connection ~ 3750 5100
 Wire Wire Line
 	3850 4900 3600 4900
 $Comp
-L CONN_5 P?
+L CONN_5 P2
 U 1 1 56ED8B75
 P 4250 5000
-F 0 "P?" V 4200 5000 50  0000 C CNN
+F 0 "P2" V 4200 5000 50  0000 C CNN
 F 1 "CONN_5" V 4300 5000 50  0000 C CNN
 	1    4250 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_4 P?
+L CONN_4 P4
 U 1 1 56ED8B6B
 P 4250 6750
-F 0 "P?" V 4200 6750 50  0000 C CNN
+F 0 "P4" V 4200 6750 50  0000 C CNN
 F 1 "CONN_4" V 4300 6750 50  0000 C CNN
 	1    4250 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_5 P?
+L CONN_5 P3
 U 1 1 56ED8A65
 P 4250 6300
-F 0 "P?" V 4200 6300 50  0000 C CNN
+F 0 "P3" V 4200 6300 50  0000 C CNN
 F 1 "CONN_5" V 4300 6300 50  0000 C CNN
 	1    4250 6300
 	1    0    0    -1  
