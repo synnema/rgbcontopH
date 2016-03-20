@@ -1,4 +1,4 @@
 sudo git add --all
-sudo git commit -m "sch_net_pcb_proj"
+sudo git commit -m "updated at >>"
 git push
 
