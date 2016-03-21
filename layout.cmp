@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Ne 20. březen 2016, 17:51:21 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Po 21. březen 2016, 16:44:46 CET
 
 BeginCmp
 TimeStamp = /56E6FA8C;
@@ -75,6 +75,20 @@ TimeStamp = /56E6F717;
 Reference = JP1;
 ValeurCmp = JUMPER-slow_sck;
 IdModule  = SW_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F015E9;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F01643;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
