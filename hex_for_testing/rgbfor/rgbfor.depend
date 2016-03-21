@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1447422359 source:/home/diamond/c/rgbfor/main.c
+	<avr/io.h>
+	<stdlib.h>
+	<math.h>
+	<util/delay.h>
+
