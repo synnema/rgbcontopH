@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = St 23. březen 2016, 16:59:55 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = St 23. březen 2016, 19:20:59 CET
 
 BeginCmp
 TimeStamp = /56E6FA8C;
@@ -151,48 +151,48 @@ BeginCmp
 TimeStamp = /56E6F083;
 Reference = R4;
 ValeurCmp = 470;
-IdModule  = R3;
+IdModule  = R6;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E6F089;
 Reference = R5;
 ValeurCmp = 470;
-IdModule  = R3;
+IdModule  = R7;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F2AE06;
 Reference = R6;
-ValeurCmp = R;
+ValeurCmp = 47k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F2AE00;
 Reference = R7;
-ValeurCmp = R;
+ValeurCmp = 47k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F2ADFA;
 Reference = R8;
-ValeurCmp = R;
+ValeurCmp = 47k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F2ADF0;
 Reference = R9;
-ValeurCmp = R;
+ValeurCmp = 47k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /56F2ADE3;
 Reference = R10;
-ValeurCmp = R;
+ValeurCmp = 47k;
 IdModule  = R3;
 EndCmp
 

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date St 23. březen 2016, 17:16:51 CET
+EESchema Schematic File Version 2  date St 23. březen 2016, 19:18:59 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,10 +44,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4450 7300 0    60   ~ 0
->> display
-Text Notes 4900 5650 0    60   ~ 0
->> 5 butons keybord
+Wire Wire Line
+	900  4850 900  7300
 Wire Wire Line
 	3900 7150 3750 7150
 Wire Wire Line
@@ -182,14 +180,12 @@ Wire Wire Line
 	4400 1650 4300 1650
 Connection ~ 4300 1650
 Wire Wire Line
-	900  4800 900  7300
-Wire Wire Line
-	900  7300 2600 7300
+	2600 7300 900  7300
 Connection ~ 1700 7300
 Wire Wire Line
 	900  4400 5900 4400
 Wire Wire Line
-	950  5000 900  5000
+	900  5000 950  5000
 Connection ~ 900  5000
 Wire Wire Line
 	1450 5000 1450 4900
@@ -240,6 +236,10 @@ Wire Wire Line
 	3650 5900 3650 7350
 Wire Wire Line
 	3650 7350 3900 7350
+Text Notes 4450 7300 0    60   ~ 0
+>> display
+Text Notes 4900 5650 0    60   ~ 0
+>> 5 butons keybord
 $Comp
 L CONN_2 P5
 U 1 1 56F2B9DF
