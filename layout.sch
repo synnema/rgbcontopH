@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date St 23. březen 2016, 17:13:10 CET
+EESchema Schematic File Version 2  date St 23. březen 2016, 17:17:15 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -254,7 +254,7 @@ L R R6
 U 1 1 56F2AE06
 P 3950 5400
 F 0 "R6" V 4030 5400 50  0000 C CNN
-F 1 "R" V 3950 5400 50  0000 C CNN
+F 1 "47k" V 3950 5400 50  0000 C CNN
 	1    3950 5400
 	0    -1   -1   0   
 $EndComp
@@ -263,7 +263,7 @@ L R R7
 U 1 1 56F2AE00
 P 3950 5500
 F 0 "R7" V 4030 5500 50  0000 C CNN
-F 1 "R" V 3950 5500 50  0000 C CNN
+F 1 "47k" V 3950 5500 50  0000 C CNN
 	1    3950 5500
 	0    -1   -1   0   
 $EndComp
@@ -272,7 +272,7 @@ L R R8
 U 1 1 56F2ADFA
 P 3950 5600
 F 0 "R8" V 4030 5600 50  0000 C CNN
-F 1 "R" V 3950 5600 50  0000 C CNN
+F 1 "47k" V 3950 5600 50  0000 C CNN
 	1    3950 5600
 	0    -1   -1   0   
 $EndComp
@@ -281,7 +281,7 @@ L R R9
 U 1 1 56F2ADF0
 P 3950 5700
 F 0 "R9" V 4030 5700 50  0000 C CNN
-F 1 "R" V 3950 5700 50  0000 C CNN
+F 1 "47k" V 3950 5700 50  0000 C CNN
 	1    3950 5700
 	0    -1   -1   0   
 $EndComp
@@ -290,7 +290,7 @@ L R R10
 U 1 1 56F2ADE3
 P 3950 6100
 F 0 "R10" V 4030 6100 50  0000 C CNN
-F 1 "R" V 3950 6100 50  0000 C CNN
+F 1 "47k" V 3950 6100 50  0000 C CNN
 	1    3950 6100
 	0    -1   -1   0   
 $EndComp
