@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date St 23. březen 2016, 17:05:34 CET
+EESchema Schematic File Version 2  date St 23. březen 2016, 17:13:10 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,8 +44,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4850 5700 0    60   ~ 0
->> 5 buttons keyboard
+Text Notes 4450 7300 0    60   ~ 0
+>> display
+Text Notes 4900 5650 0    60   ~ 0
+>> 5 butons keybord
 Wire Wire Line
 	3900 7150 3750 7150
 Wire Wire Line
@@ -238,8 +240,6 @@ Wire Wire Line
 	3650 5900 3650 7350
 Wire Wire Line
 	3650 7350 3900 7350
-Text Notes 4450 7300 0    60   ~ 0
->> display
 $Comp
 L CONN_2 P5
 U 1 1 56F2B9DF
