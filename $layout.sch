@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date St 23. březen 2016, 19:55:29 CET
+EESchema Schematic File Version 2  date Čt 24. březen 2016, 21:10:52 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "23 mar 2016"
+Date "24 mar 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,9 +44,38 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 4750 5700
+Connection ~ 4900 1250
 Wire Wire Line
-	4750 5700 4750 6700
+	4450 1250 5900 1250
+Connection ~ 2750 1150
+Wire Wire Line
+	2750 1150 2750 1250
+Wire Wire Line
+	2750 1250 2800 1250
+Wire Wire Line
+	4500 2750 4300 2750
+Wire Wire Line
+	4300 2750 4300 1550
+Wire Wire Line
+	5250 7000 5050 7000
+Wire Wire Line
+	5050 7000 5050 7100
+Wire Wire Line
+	5050 7100 5750 7100
+Wire Wire Line
+	5750 7100 5750 5500
+Wire Wire Line
+	5750 5500 5900 5500
+Wire Wire Line
+	4900 6100 3600 6100
+Connection ~ 4650 6100
+Wire Wire Line
+	4650 6100 4650 6900
+Wire Wire Line
+	4650 6900 5250 6900
+Connection ~ 4750 5600
+Wire Wire Line
+	4750 5600 4750 6700
 Wire Wire Line
 	4750 6700 5250 6700
 Connection ~ 4850 5400
@@ -105,24 +134,15 @@ Wire Wire Line
 Wire Wire Line
 	5900 4700 5900 4900
 Wire Wire Line
-	3600 3050 4300 3050
-Wire Wire Line
 	4900 1650 5000 1650
 Wire Wire Line
 	5000 1650 5000 1350
-Wire Wire Line
-	4300 3050 4300 1550
-Wire Wire Line
-	4300 1550 3600 1550
 Wire Wire Line
 	5700 2350 5700 2500
 Wire Wire Line
 	5000 1350 5900 1350
 Wire Wire Line
-	4900 1450 4900 1250
-Connection ~ 4400 1150
-Wire Wire Line
-	4400 1150 4400 1250
+	4900 1250 4900 1450
 Connection ~ 2600 1150
 Wire Wire Line
 	900  1150 5900 1150
@@ -167,8 +187,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 1450 5900 1600
 Wire Wire Line
-	4900 1250 5900 1250
-Wire Wire Line
 	4400 1450 3600 1450
 Wire Wire Line
 	1200 1150 1200 1450
@@ -184,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4300 1700 4300
 Wire Wire Line
-	4400 1650 4300 1650
+	4300 1650 4400 1650
 Connection ~ 4300 1650
 Wire Wire Line
 	2600 7300 900  7300
@@ -233,8 +251,6 @@ Wire Wire Line
 	3650 7350 3900 7350
 Connection ~ 5400 5700
 Wire Wire Line
-	4900 6100 3600 6100
-Wire Wire Line
 	4900 5600 3600 5600
 Wire Wire Line
 	4900 5400 3600 5400
@@ -243,18 +259,88 @@ Wire Wire Line
 Wire Wire Line
 	4800 6600 4800 5500
 Connection ~ 4800 5500
+Wire Wire Line
+	5250 6800 4700 6800
+Wire Wire Line
+	4700 6800 4700 5700
+Connection ~ 4700 5700
+Connection ~ 5750 4400
+Wire Wire Line
+	5900 5200 5750 5200
+Wire Wire Line
+	5750 5200 5750 4400
+Wire Wire Line
+	4300 1550 3600 1550
+Wire Wire Line
+	4500 3050 3600 3050
+Wire Wire Line
+	3300 1250 3500 1250
 $Comp
-L GND #PWR?
+L CONNECTOR P?
+U 1 1 56F44736
+P 4450 1250
+F 0 "P?" H 4800 1350 70  0000 C CNN
+F 1 "CONNECTOR" H 4800 1150 70  0000 C CNN
+	1    4450 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P?
+U 1 1 56F4472A
+P 3500 1250
+F 0 "P?" H 3850 1350 70  0000 C CNN
+F 1 "CONNECTOR" H 3850 1150 70  0000 C CNN
+	1    3500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P9
+U 1 1 56F4451F
+P 4500 3050
+F 0 "P9" H 4850 3150 70  0000 C CNN
+F 1 "CONNECTOR" H 4850 2950 70  0000 C CNN
+	1    4500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P8
+U 1 1 56F44512
+P 4500 2750
+F 0 "P8" H 4850 2850 70  0000 C CNN
+F 1 "CONNECTOR" H 4850 2650 70  0000 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P7
+U 1 1 56F43F14
+P 5900 5500
+F 0 "P7" H 6250 5600 70  0000 C CNN
+F 1 "CONNECTOR" H 6250 5400 70  0000 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P6
+U 1 1 56F43F05
+P 5900 5200
+F 0 "P6" H 6250 5300 70  0000 C CNN
+F 1 "CONNECTOR" H 6250 5100 70  0000 C CNN
+	1    5900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
 U 1 1 56F2E64F
 P 5400 6250
-F 0 "#PWR?" H 5400 6250 30  0001 C CNN
+F 0 "#PWR3" H 5400 6250 30  0001 C CNN
 F 1 "GND" H 5400 6180 30  0001 C CNN
 	1    5400 6250
 	1    0    0    -1  
 $EndComp
 Text Notes 4450 7300 0    60   ~ 0
 >> display
-Text Notes 6250 6250 0    60   ~ 0
+Text Notes 5850 6800 0    60   ~ 0
 >> 5 butons keybord
 $Comp
 L CONN_2 P5
@@ -367,10 +453,10 @@ $EndComp
 Text Label 8550 7350 0    60   ~ 0
 Basic usb_asp programmer with apl. circuit - atmega8
 $Comp
-L GND #PWR01
+L GND #PWR6
 U 1 1 56E6FC1F
 P 5900 4900
-F 0 "#PWR01" H 5900 4900 30  0001 C CNN
+F 0 "#PWR6" H 5900 4900 30  0001 C CNN
 F 1 "GND" H 5900 4830 30  0001 C CNN
 	1    5900 4900
 	1    0    0    -1  
@@ -398,10 +484,10 @@ F 1 "1uF" H 950 4550 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR4
 U 1 1 56E6F74F
 P 5700 2500
-F 0 "#PWR02" H 5700 2500 30  0001 C CNN
+F 0 "#PWR4" H 5700 2500 30  0001 C CNN
 F 1 "GND" H 5700 2430 30  0001 C CNN
 	1    5700 2500
 	1    0    0    -1  
@@ -416,10 +502,10 @@ F 1 "JUMPER-slow_sck" H 5400 2270 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR5
 U 1 1 56E6F4BB
 P 5900 1600
-F 0 "#PWR03" H 5900 1600 30  0001 C CNN
+F 0 "#PWR5" H 5900 1600 30  0001 C CNN
 F 1 "GND" H 5900 1530 30  0001 C CNN
 	1    5900 1600
 	1    0    0    -1  
@@ -463,10 +549,10 @@ $EndComp
 $Comp
 L R R3
 U 1 1 56E6F06F
-P 4650 1250
-F 0 "R3" V 4730 1250 50  0000 C CNN
-F 1 "10k" V 4650 1250 50  0000 C CNN
-	1    4650 1250
+P 3050 1250
+F 0 "R3" V 3130 1250 50  0000 C CNN
+F 1 "10k" V 3050 1250 50  0000 C CNN
+	1    3050 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -496,10 +582,10 @@ F 7 "GND" H 6425 1150 50  0001 C CNN "Ground"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR1
 U 1 1 56E6EE76
 P 2600 4150
-F 0 "#PWR04" H 2600 4150 30  0001 C CNN
+F 0 "#PWR1" H 2600 4150 30  0001 C CNN
 F 1 "GND" H 2600 4080 30  0001 C CNN
 	1    2600 4150
 	1    0    0    -1  
@@ -542,10 +628,10 @@ F 2 "DIL28" H 2000 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR2
 U 1 1 56E6ED32
 P 2600 7400
-F 0 "#PWR05" H 2600 7400 30  0001 C CNN
+F 0 "#PWR2" H 2600 7400 30  0001 C CNN
 F 1 "GND" H 2600 7330 30  0001 C CNN
 	1    2600 7400
 	1    0    0    -1  

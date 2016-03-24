@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = St 23. březen 2016, 19:20:59 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Čt 24. březen 2016, 21:13:15 CET
 
 BeginCmp
 TimeStamp = /56E6FA8C;
@@ -124,6 +124,48 @@ TimeStamp = /56F2B9DF;
 Reference = P5;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F43F05;
+Reference = P6;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F43F14;
+Reference = P7;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F44512;
+Reference = P8;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F4451F;
+Reference = P9;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F4472A;
+Reference = P10;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F44736;
+Reference = P11;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
