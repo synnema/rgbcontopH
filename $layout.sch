@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Čt 24. březen 2016, 23:12:19 CET
+EESchema Schematic File Version 2  date Pá 25. březen 2016, 07:58:06 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "24 mar 2016"
+Date "25 mar 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,11 +45,41 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	5250 7100 4650 7100
+Wire Wire Line
+	4650 7100 4650 6100
+Wire Wire Line
+	5250 6900 4750 6900
+Wire Wire Line
+	4750 6900 4750 5600
+Wire Wire Line
+	5250 6700 4850 6700
+Wire Wire Line
+	4850 6700 4850 5400
+Connection ~ 900  2850
+Wire Wire Line
+	900  2850 600  2850
+Wire Wire Line
+	600  2850 600  4150
+Connection ~ 900  4150
+Wire Wire Line
+	600  4150 900  4150
+Connection ~ 4400 3050
+Connection ~ 4400 2750
+Wire Wire Line
+	4400 3050 4400 2750
+Connection ~ 3400 1250
+Wire Wire Line
+	3400 1250 3400 950 
+Wire Wire Line
+	3400 950  4600 950 
+Connection ~ 4600 1250
+Wire Wire Line
+	4600 950  4600 1250
+Wire Wire Line
 	900  3950 900  4450
 Wire Wire Line
 	900  3050 900  1150
-Wire Wire Line
-	4500 2350 4500 2450
 Wire Wire Line
 	6050 1850 5700 1850
 Wire Wire Line
@@ -67,32 +97,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 2750 4300 1550
 Wire Wire Line
-	5250 7000 5050 7000
-Wire Wire Line
-	5050 7000 5050 7100
-Wire Wire Line
-	5050 7100 5750 7100
-Wire Wire Line
-	5750 7100 5750 5500
-Wire Wire Line
-	5750 5500 5900 5500
-Wire Wire Line
 	3600 6100 4900 6100
 Connection ~ 4650 6100
-Wire Wire Line
-	4650 6100 4650 6900
-Wire Wire Line
-	4650 6900 5250 6900
 Connection ~ 4750 5600
-Wire Wire Line
-	4750 5600 4750 6700
-Wire Wire Line
-	4750 6700 5250 6700
 Connection ~ 4850 5400
-Wire Wire Line
-	4850 5400 4850 6500
-Wire Wire Line
-	4850 6500 5250 6500
 Wire Wire Line
 	3600 5500 4900 5500
 Wire Wire Line
@@ -254,21 +262,9 @@ Wire Wire Line
 	3600 5600 4900 5600
 Wire Wire Line
 	3600 5400 4900 5400
-Wire Wire Line
-	5250 6600 4800 6600
-Wire Wire Line
-	4800 6600 4800 5500
 Connection ~ 4800 5500
-Wire Wire Line
-	5250 6800 4700 6800
-Wire Wire Line
-	4700 6800 4700 5700
 Connection ~ 4700 5700
 Connection ~ 5750 4400
-Wire Wire Line
-	5900 5200 5750 5200
-Wire Wire Line
-	5750 5200 5750 4400
 Wire Wire Line
 	4300 1550 3600 1550
 Wire Wire Line
@@ -291,6 +287,29 @@ Wire Wire Line
 	4400 2050 4500 2050
 Wire Wire Line
 	900  4400 5900 4400
+Wire Wire Line
+	5700 1650 5600 1650
+Connection ~ 5600 1650
+Connection ~ 5700 1650
+Wire Wire Line
+	4500 2050 4500 2450
+Connection ~ 4500 2350
+Wire Wire Line
+	5750 4400 5750 6450
+Wire Wire Line
+	5750 6450 5150 6450
+Wire Wire Line
+	5150 6450 5150 6600
+Wire Wire Line
+	5150 6600 5250 6600
+Wire Wire Line
+	4800 5500 4800 6800
+Wire Wire Line
+	4800 6800 5250 6800
+Wire Wire Line
+	4700 5700 4700 7000
+Wire Wire Line
+	4700 7000 5250 7000
 $Comp
 L CONNECTOR P16
 U 1 1 56F463EF
@@ -382,28 +401,10 @@ F 1 "CONNECTOR" H 4850 2650 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONNECTOR P7
-U 1 1 56F43F14
-P 5900 5500
-F 0 "P7" H 6250 5600 70  0000 C CNN
-F 1 "CONNECTOR" H 6250 5400 70  0000 C CNN
-	1    5900 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONNECTOR P6
-U 1 1 56F43F05
-P 5900 5200
-F 0 "P6" H 6250 5300 70  0000 C CNN
-F 1 "CONNECTOR" H 6250 5100 70  0000 C CNN
-	1    5900 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR4
+L GND #PWR01
 U 1 1 56F2E64F
 P 5400 6250
-F 0 "#PWR4" H 5400 6250 30  0001 C CNN
+F 0 "#PWR01" H 5400 6250 30  0001 C CNN
 F 1 "GND" H 5400 6180 30  0001 C CNN
 	1    5400 6250
 	1    0    0    -1  
@@ -514,19 +515,19 @@ $EndComp
 $Comp
 L CONN_6 P1
 U 1 1 56EABEA5
-P 5600 6750
-F 0 "P1" V 5550 6750 60  0000 C CNN
-F 1 "CONN_6" V 5650 6750 60  0000 C CNN
-	1    5600 6750
+P 5600 6850
+F 0 "P1" V 5550 6850 60  0000 C CNN
+F 1 "CONN_6" V 5650 6850 60  0000 C CNN
+	1    5600 6850
 	1    0    0    -1  
 $EndComp
 Text Label 8550 7350 0    60   ~ 0
 Basic usb_asp programmer with apl. circuit - atmega8
 $Comp
-L GND #PWR6
+L GND #PWR02
 U 1 1 56E6FC1F
 P 5900 4900
-F 0 "#PWR6" H 5900 4900 30  0001 C CNN
+F 0 "#PWR02" H 5900 4900 30  0001 C CNN
 F 1 "GND" H 5900 4830 30  0001 C CNN
 	1    5900 4900
 	1    0    0    -1  
@@ -554,19 +555,19 @@ F 1 "1uF" H 950 4550 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR03
 U 1 1 56E6F74F
 P 4500 2450
-F 0 "#PWR3" H 4500 2450 30  0001 C CNN
+F 0 "#PWR03" H 4500 2450 30  0001 C CNN
 F 1 "GND" H 4500 2380 30  0001 C CNN
 	1    4500 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR04
 U 1 1 56E6F4BB
 P 5900 1600
-F 0 "#PWR5" H 5900 1600 30  0001 C CNN
+F 0 "#PWR04" H 5900 1600 30  0001 C CNN
 F 1 "GND" H 5900 1530 30  0001 C CNN
 	1    5900 1600
 	1    0    0    -1  
@@ -643,10 +644,10 @@ F 7 "GND" H 6425 1150 50  0001 C CNN "Ground"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR05
 U 1 1 56E6EE76
 P 2600 4150
-F 0 "#PWR1" H 2600 4150 30  0001 C CNN
+F 0 "#PWR05" H 2600 4150 30  0001 C CNN
 F 1 "GND" H 2600 4080 30  0001 C CNN
 	1    2600 4150
 	1    0    0    -1  
@@ -689,10 +690,10 @@ F 2 "DIL28" H 2000 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR06
 U 1 1 56E6ED32
 P 2600 7400
-F 0 "#PWR2" H 2600 7400 30  0001 C CNN
+F 0 "#PWR06" H 2600 7400 30  0001 C CNN
 F 1 "GND" H 2600 7330 30  0001 C CNN
 	1    2600 7400
 	1    0    0    -1  

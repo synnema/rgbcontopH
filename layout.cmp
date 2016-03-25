@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Čt 24. březen 2016, 22:40:04 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Pá 25. březen 2016, 07:52:18 CET
 
 BeginCmp
 TimeStamp = /56E6FA8C;
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /56E6EF62;
 Reference = J1;
 ValeurCmp = externí_zdroj_5V;
-IdModule  = USB_B;
+IdModule  = USB_A;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E6EFF1;
 Reference = J2;
 ValeurCmp = USB_2;
-IdModule  = USB_B;
+IdModule  = USB_A;
 EndCmp
 
 BeginCmp
@@ -190,14 +190,14 @@ IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F45E70;
+TimeStamp = /56F463EF;
 Reference = P16;
 ValeurCmp = CONNECTOR;
 IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56F45E6C;
+TimeStamp = /56F463EA;
 Reference = P17;
 ValeurCmp = CONNECTOR;
 IdModule  = PIN_ARRAY_1;
