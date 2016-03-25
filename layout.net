@@ -1,223 +1,301 @@
-# EESchema Netlist Version 1.1 created  Pá 25. březen 2016, 07:54:55 CET
+# EESchema Netlist Version 1.1 created  Pá 25. březen 2016, 08:55:41 CET
 (
- ( /56F463EF $noname  P16 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000056 )
+ ( /56E6FA8C CP4 C1 1uF
+  ( 1 N-000056 )
+  ( 2 GND )
  )
- ( /56F463EA $noname  P17 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000056 )
+ ( /56E6EDF9 C1 C2 15p
+  ( 1 N-000035 )
+  ( 2 GND )
  )
- ( /56F4532C $noname  P14 CONNECTOR {Lib=CONNECTOR}
-  (    1 GND )
+ ( /56E6E9FE C1 C3 33p
+  ( 1 N-000018 )
+  ( 2 GND )
  )
- ( /56F45321 $noname  P15 CONNECTOR {Lib=CONNECTOR}
-  (    1 GND )
+ ( /56E6EE09 C1 C4 15p
+  ( 1 N-000036 )
+  ( 2 GND )
  )
- ( /56F4507E $noname  P12 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000055 )
+ ( /56E6EA03 C1 C5 33p
+  ( 1 N-000019 )
+  ( 2 GND )
  )
- ( /56F45079 $noname  P13 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000055 )
+ ( /56E6FAF2 LED-3MM D1 LED
+  ( 1 N-000056 )
+  ( 2 N-000011 )
  )
- ( /56F44736 $noname  P11 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000055 )
+ ( /56E6EDD7 DIP-28__300 IC1 ATMEGA8-P
+  ( 1 N-000009 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 N-000057 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000056 )
+  ( 8 GND )
+  ( 9 N-000035 )
+  ( 10 N-000036 )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 N-000044 )
+  ( 15 N-000057 )
+  ( 16 N-000017 )
+  ( 17 N-000041 )
+  ( 18 N-000039 )
+  ( 19 N-000020 )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 GND )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
  )
- ( /56F4472A $noname  P10 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000055 )
+ ( /56E6A846 DIP-28__300 IC2 ATMEGA8-P
+  ( 1 N-000017 )
+  ( 2 N-000054 )
+  ( 3 N-000016 )
+  ( 4 N-000015 )
+  ( 5 N-000014 )
+  ( 6 N-000013 )
+  ( 7 N-000056 )
+  ( 8 GND )
+  ( 9 N-000018 )
+  ( 10 N-000019 )
+  ( 11 N-000029 )
+  ( 12 N-000027 )
+  ( 13 N-000026 )
+  ( 14 N-000025 )
+  ( 15 N-000023 )
+  ( 16 N-000022 )
+  ( 17 N-000051 )
+  ( 18 N-000012 )
+  ( 19 N-000050 )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 N-000052 )
+  ( 24 N-000005 )
+  ( 25 N-000053 )
+  ( 26 N-000001 )
+  ( 27 N-000021 )
+  ( 28 N-000055 )
  )
- ( /56F4451F $noname  P9 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000057 )
+ ( /56E6EF62 USB_A J1 externí_zdroj_5V
+  ( 1 N-000056 )
+  ( 2 N-000010 )
+  ( 3 N-000037 )
+  ( 4 GND )
  )
- ( /56F44512 $noname  P8 CONNECTOR {Lib=CONNECTOR}
-  (    1 N-000057 )
+ ( /56E6EFF1 USB_A J2 USB_2
+  ( 1 N-000056 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
  )
- ( /56F2B9DF $noname  P5 CONN_2 {Lib=CONN_2}
-  (    1 N-000021 )
-  (    2 N-000011 )
+ ( /56F015E9 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 N-000041 )
+  ( 2 N-000039 )
+  ( 3 N-000020 )
  )
- ( /56F2AE06 $noname  R6 47k {Lib=R}
-  (    1 N-000052 )
-  (    2 GND )
+ ( /56F01643 PIN_ARRAY_3X1 K2 CONN_3
+  ( 1 N-000051 )
+  ( 2 N-000012 )
+  ( 3 N-000050 )
  )
- ( /56F2AE00 $noname  R7 47k {Lib=R}
-  (    1 N-000005 )
-  (    2 GND )
+ ( /56EABEA5 PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 N-000056 )
+  ( 2 N-000052 )
+  ( 3 N-000005 )
+  ( 4 N-000053 )
+  ( 5 N-000001 )
+  ( 6 N-000054 )
  )
- ( /56F2ADFA $noname  R8 47k {Lib=R}
-  (    1 N-000053 )
-  (    2 GND )
+ ( /56ED8B75 PIN_ARRAY_5x1 P2 CONN_5
+  ( 1 N-000023 )
+  ( 2 N-000022 )
+  ( 3 N-000051 )
+  ( 4 N-000012 )
+  ( 5 N-000050 )
  )
- ( /56F2ADF0 $noname  R9 47k {Lib=R}
-  (    1 N-000001 )
-  (    2 GND )
+ ( /56F2ACE8 PIN_ARRAY_4x1 P3 CONN_4
+  ( 1 N-000016 )
+  ( 2 N-000015 )
+  ( 3 N-000014 )
+  ( 4 N-000013 )
  )
- ( /56F2ADE3 $noname  R10 47k {Lib=R}
-  (    1 N-000054 )
-  (    2 GND )
+ ( /56ED8B6B PIN_ARRAY_4x1 P4 CONN_4
+  ( 1 N-000029 )
+  ( 2 N-000027 )
+  ( 3 N-000026 )
+  ( 4 N-000025 )
  )
- ( /56F2ACE8 $noname  P3 CONN_4 {Lib=CONN_4}
-  (    1 N-000016 )
-  (    2 N-000015 )
-  (    3 N-000014 )
-  (    4 N-000013 )
+ ( /56F4EE5E PIN_ARRAY_1 P5 CONNECTOR
+  ( 1 N-000021 )
  )
- ( /56F01643 $noname  K2 CONN_3 {Lib=CONN_3}
-  (    1 N-000051 )
-  (    2 N-000012 )
-  (    3 N-000050 )
+ ( /56F4EE63 PIN_ARRAY_1 P6 CONNECTOR
+  ( 1 N-000055 )
  )
- ( /56F015E9 $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 N-000041 )
-  (    2 N-000039 )
-  (    3 N-000020 )
+ ( /56F44512 PIN_ARRAY_1 P8 CONNECTOR
+  ( 1 N-000057 )
  )
- ( /56ED8B75 $noname  P2 CONN_5 {Lib=CONN_5}
-  (    1 N-000023 )
-  (    2 N-000022 )
-  (    3 N-000051 )
-  (    4 N-000012 )
-  (    5 N-000050 )
+ ( /56F4451F PIN_ARRAY_1 P9 CONNECTOR
+  ( 1 N-000057 )
  )
- ( /56ED8B6B $noname  P4 CONN_4 {Lib=CONN_4}
-  (    1 N-000029 )
-  (    2 N-000027 )
-  (    3 N-000026 )
-  (    4 N-000025 )
+ ( /56F4472A PIN_ARRAY_1 P10 CONNECTOR
+  ( 1 N-000010 )
  )
- ( /56EABEA5 $noname  P1 CONN_6 {Lib=CONN_6}
-  (    1 N-000056 )
-  (    2 N-000052 )
-  (    3 N-000005 )
-  (    4 N-000053 )
-  (    5 N-000001 )
-  (    6 N-000054 )
+ ( /56F44736 PIN_ARRAY_1 P11 CONNECTOR
+  ( 1 N-000010 )
  )
- ( /56E6FAF2 $noname  D1 LED {Lib=LED}
-  (    1 N-000056 )
-  (    2 N-000010 )
+ ( /56F4507E PIN_ARRAY_1 P12 CONNECTOR
+  ( 1 N-000010 )
  )
- ( /56E6FA8C $noname  C1 1uF {Lib=CP1}
-  (    1 N-000056 )
-  (    2 GND )
+ ( /56F45079 PIN_ARRAY_1 P13 CONNECTOR
+  ( 1 N-000010 )
  )
- ( /56E6F091 $noname  R1 1k5 {Lib=R}
-  (    1 GND )
-  (    2 N-000010 )
+ ( /56F4532C PIN_ARRAY_1 P14 CONNECTOR
+  ( 1 GND )
  )
- ( /56E6F089 $noname  R5 470 {Lib=R}
-  (    1 N-000057 )
-  (    2 N-000037 )
+ ( /56F45321 PIN_ARRAY_1 P15 CONNECTOR
+  ( 1 GND )
  )
- ( /56E6F083 $noname  R4 470 {Lib=R}
-  (    1 N-000044 )
-  (    2 N-000055 )
+ ( /56F463EF PIN_ARRAY_1 P16 CONNECTOR
+  ( 1 N-000056 )
  )
- ( /56E6F07C $noname  R2 10k {Lib=R}
-  (    1 N-000056 )
-  (    2 N-000009 )
+ ( /56F463EA PIN_ARRAY_1 P17 CONNECTOR
+  ( 1 N-000056 )
  )
- ( /56E6F06F $noname  R3 10k {Lib=R}
-  (    1 N-000056 )
-  (    2 N-000055 )
+ ( /56E6F091 R3 R1 1k5
+  ( 1 GND )
+  ( 2 N-000011 )
  )
- ( /56E6EFF1 $noname  J2 USB_2 {Lib=USB_2}
-  (    1 N-000056 )
-  (    2 ? )
-  (    3 ? )
-  (    4 GND )
+ ( /56E6F07C R3 R2 10k
+  ( 1 N-000056 )
+  ( 2 N-000009 )
  )
- ( /56E6EF62 $noname  J1 externí_zdroj_5V {Lib=USB_2}
-  (    1 N-000056 )
-  (    2 N-000055 )
-  (    3 N-000037 )
-  (    4 GND )
+ ( /56E6F06F R3 R3 10k
+  ( 1 N-000056 )
+  ( 2 N-000010 )
  )
- ( /56E6EE09 $noname  C4 15p {Lib=CSMALL}
-  (    1 N-000036 )
-  (    2 GND )
+ ( /56E6F083 R6 R4 470
+  ( 1 N-000044 )
+  ( 2 N-000010 )
  )
- ( /56E6EDF9 $noname  C2 15p {Lib=CSMALL}
-  (    1 N-000035 )
-  (    2 GND )
+ ( /56E6F089 R7 R5 470
+  ( 1 N-000057 )
+  ( 2 N-000037 )
  )
- ( /56E6EDEF $noname  X1 CRYSTAL_12MHz {Lib=CRYSTAL}
-  (    1 N-000035 )
-  (    2 N-000036 )
+ ( /56F2AE06 R3 R6 47k
+  ( 1 N-000052 )
+  ( 2 GND )
  )
- ( /56E6EDD7 DIL28  IC1 ATMEGA8-P {Lib=ATMEGA8-P}
-  (    1 N-000009 )
-  (    2 ? )
-  (    3 ? )
-  (    4 N-000057 )
-  (    5 ? )
-  (    6 ? )
-  (    7 N-000056 )
-  (    8 GND )
-  (    9 N-000035 )
-  (   10 N-000036 )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 N-000044 )
-  (   15 N-000057 )
-  (   16 N-000017 )
-  (   17 N-000041 )
-  (   18 N-000039 )
-  (   19 N-000020 )
-  (   20 ? )
-  (   21 ? )
-  (   22 GND )
-  (   23 ? )
-  (   24 ? )
-  (   25 GND )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
+ ( /56F2AE00 R3 R7 47k
+  ( 1 N-000005 )
+  ( 2 GND )
  )
- ( /56E6EA03 $noname  C5 33p {Lib=CSMALL}
-  (    1 N-000019 )
-  (    2 GND )
+ ( /56F2ADFA R3 R8 47k
+  ( 1 N-000053 )
+  ( 2 GND )
  )
- ( /56E6E9FE $noname  C3 33p {Lib=CSMALL}
-  (    1 N-000018 )
-  (    2 GND )
+ ( /56F2ADF0 R3 R9 47k
+  ( 1 N-000001 )
+  ( 2 GND )
  )
- ( /56E6E934 $noname  X2 CRYSTAL_12MHz {Lib=CRYSTAL}
-  (    1 N-000018 )
-  (    2 N-000019 )
+ ( /56F2ADE3 R3 R10 47k
+  ( 1 N-000054 )
+  ( 2 GND )
  )
- ( /56E6A846 DIL28  IC2 ATMEGA8-P {Lib=ATMEGA8-P}
-  (    1 N-000017 )
-  (    2 N-000054 )
-  (    3 N-000016 )
-  (    4 N-000015 )
-  (    5 N-000014 )
-  (    6 N-000013 )
-  (    7 N-000056 )
-  (    8 GND )
-  (    9 N-000018 )
-  (   10 N-000019 )
-  (   11 N-000029 )
-  (   12 N-000027 )
-  (   13 N-000026 )
-  (   14 N-000025 )
-  (   15 N-000023 )
-  (   16 N-000022 )
-  (   17 N-000051 )
-  (   18 N-000012 )
-  (   19 N-000050 )
-  (   20 ? )
-  (   21 ? )
-  (   22 GND )
-  (   23 N-000052 )
-  (   24 N-000005 )
-  (   25 N-000053 )
-  (   26 N-000001 )
-  (   27 N-000021 )
-  (   28 N-000011 )
+ ( /56E6EDEF R1 X1 CRYSTAL_12MHz
+  ( 1 N-000035 )
+  ( 2 N-000036 )
+ )
+ ( /56E6E934 R1 X2 CRYSTAL_12MHz
+  ( 1 N-000018 )
+  ( 2 N-000019 )
  )
 )
 *
 { Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component IC2
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R6
  R?
  SM0603
@@ -253,239 +331,5 @@ $component R10
  R?-*
  SM1206
 $endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C1
- CP*
- SM*
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component IC1
- 28DIP-ELL600
- 28dip600
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component IC2
- 28DIP-ELL600
- 28dip600
-$endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- R9 1
- IC2 26
- P1 5
-Net 5 "" ""
- R7 1
- IC2 24
- P1 3
-Net 6 "GND" "GND"
- P14 1
- R10 2
- IC1 25
- P15 1
- C4 2
- IC2 22
- C2 2
- IC1 8
- C5 2
- C3 2
- IC2 8
- J1 4
- R9 2
- R1 1
- J2 4
- C1 2
- R7 2
- R8 2
- R6 2
- IC1 22
-Net 9 "" ""
- IC1 1
- R2 2
-Net 10 "" ""
- D1 2
- R1 2
-Net 11 "" ""
- P5 2
- IC2 28
-Net 12 "" ""
- IC2 18
- P2 4
- K2 2
-Net 13 "" ""
- P3 4
- IC2 6
-Net 14 "" ""
- P3 3
- IC2 5
-Net 15 "" ""
- IC2 4
- P3 2
-Net 16 "" ""
- IC2 3
- P3 1
-Net 17 "" ""
- IC1 16
- IC2 1
-Net 18 "" ""
- X2 1
- IC2 9
- C3 1
-Net 19 "" ""
- X2 2
- IC2 10
- C5 1
-Net 20 "" ""
- IC1 19
- K1 3
-Net 21 "" ""
- P5 1
- IC2 27
-Net 22 "" ""
- P2 2
- IC2 16
-Net 23 "" ""
- P2 1
- IC2 15
-Net 25 "" ""
- IC2 14
- P4 4
-Net 26 "" ""
- IC2 13
- P4 3
-Net 27 "" ""
- P4 2
- IC2 12
-Net 29 "" ""
- P4 1
- IC2 11
-Net 35 "" ""
- IC1 9
- X1 1
- C2 1
-Net 36 "" ""
- C4 1
- X1 2
- IC1 10
-Net 37 "" ""
- J1 3
- R5 2
-Net 39 "" ""
- K1 2
- IC1 18
-Net 41 "" ""
- IC1 17
- K1 1
-Net 44 "" ""
- IC1 14
- R4 1
-Net 50 "" ""
- P2 5
- IC2 19
- K2 3
-Net 51 "" ""
- IC2 17
- K2 1
- P2 3
-Net 52 "" ""
- R6 1
- IC2 23
- P1 2
-Net 53 "" ""
- R8 1
- IC2 25
- P1 4
-Net 54 "" ""
- IC2 2
- R10 1
- P1 6
-Net 55 "" ""
- R3 2
- R4 2
- J1 2
- P10 1
- P11 1
- P13 1
- P12 1
-Net 56 "" ""
- R2 1
- C1 1
- D1 1
- P1 1
- P17 1
- J2 1
- R3 1
- P16 1
- J1 1
- IC1 7
- IC2 7
-Net 57 "" ""
- IC1 15
- R5 1
- P8 1
- P9 1
- IC1 4
-}
-#End

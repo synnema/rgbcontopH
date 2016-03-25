@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Pá 25. březen 2016, 07:58:06 CET
+EESchema Schematic File Version 2  date Pá 25. březen 2016, 09:02:57 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONNECTOR P6
+U 1 1 56F4EE63
+P 3900 7350
+F 0 "P6" H 4250 7450 70  0000 C CNN
+F 1 "CONNECTOR" H 4250 7250 70  0000 C CNN
+	1    3900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P5
+U 1 1 56F4EE5E
+P 3900 7150
+F 0 "P5" H 4250 7250 70  0000 C CNN
+F 1 "CONNECTOR" H 4250 7050 70  0000 C CNN
+	1    3900 7150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5250 7100 4650 7100
 Wire Wire Line
@@ -413,15 +431,6 @@ Text Notes 4450 7300 0    60   ~ 0
 >> display
 Text Notes 5850 6800 0    60   ~ 0
 >> 5 butons keybord
-$Comp
-L CONN_2 P5
-U 1 1 56F2B9DF
-P 4250 7250
-F 0 "P5" V 4200 7250 40  0000 C CNN
-F 1 "CONN_2" V 4300 7250 40  0000 C CNN
-	1    4250 7250
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R6
 U 1 1 56F2AE06
