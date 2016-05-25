@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Út 12. duben 2016, 17:38:28 CEST
+EESchema Schematic File Version 2  date St 25. květen 2016, 12:57:06 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "12 apr 2016"
+Date "25 may 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -460,7 +460,7 @@ $EndComp
 Text Notes 4450 7300 0    60   ~ 0
 >> display
 Text Notes 5850 6800 0    60   ~ 0
->> 5 butons keybord
+>> 5 butons keybord I2C port
 $Comp
 L R R6
 U 1 1 56F2AE06
