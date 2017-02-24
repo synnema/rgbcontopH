@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Po 6. únor 2017, 10:02:43 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Pá 24. únor 2017, 16:07:46 CET
 
 BeginCmp
 TimeStamp = /56E6FA8C;
@@ -85,6 +85,13 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /58A81FCB;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /56EABEA5;
 Reference = P1;
 ValeurCmp = CONN_6;
@@ -122,6 +129,13 @@ EndCmp
 BeginCmp
 TimeStamp = /56F4EE63;
 Reference = P6;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00933;
+Reference = P7;
 ValeurCmp = CONNECTOR;
 IdModule  = PIN_ARRAY_1;
 EndCmp
@@ -197,6 +211,160 @@ IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
+TimeStamp = /58B008D9;
+Reference = P18;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58AF3D2C;
+Reference = P19;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58AF3D3E;
+Reference = P20;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58AF3D4B;
+Reference = P21;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00AC8;
+Reference = P22;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EED;
+Reference = P23;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EF5;
+Reference = P24;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EFD;
+Reference = P25;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00F0D;
+Reference = P26;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00F11;
+Reference = P27;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00F15;
+Reference = P28;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B04B79;
+Reference = P29;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B04B82;
+Reference = P30;
+ValeurCmp = CONNECTOR;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /58A81F29;
+Reference = Q1;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58A6D0DE;
+Reference = Q2;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58A6D12F;
+Reference = Q3;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00E60;
+Reference = Q4;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00E67;
+Reference = Q5;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00E6F;
+Reference = Q6;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00E7E;
+Reference = Q7;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00E84;
+Reference = Q8;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00E8B;
+Reference = Q9;
+ValeurCmp = IRF3710;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
 TimeStamp = /56E6F091;
 Reference = R1;
 ValeurCmp = 1k5;
@@ -263,6 +431,69 @@ BeginCmp
 TimeStamp = /56F2ADE3;
 Reference = R10;
 ValeurCmp = 47k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EA2;
+Reference = R11;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EB6;
+Reference = R12;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58A84EA5;
+Reference = R13;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58A84ECB;
+Reference = R14;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58A84EBA;
+Reference = R15;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EC6;
+Reference = R16;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00ECE;
+Reference = R17;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00ED5;
+Reference = R18;
+ValeurCmp = 1k5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /58B00EE0;
+Reference = R19;
+ValeurCmp = 1k5;
 IdModule  = R3;
 EndCmp
 
