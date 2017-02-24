@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$1" = "-h" ]; then
+echo "pomoc pro uživatele!"
+else
+echo "uživatel nechce pomoc!"
+fi

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1447327492 source:/home/diamond/c/rgb_pwm/main.c
+	<avr/io.h>
+	<stdlib.h>
+	<math.h>
+	<util/delay.h>
+

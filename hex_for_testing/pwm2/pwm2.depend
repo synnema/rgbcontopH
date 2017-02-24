@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1447318581 source:/home/diamond/c/pwm2/main.c
+	<avr/io.h>
+

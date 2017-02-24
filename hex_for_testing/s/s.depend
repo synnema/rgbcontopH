@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1447339399 source:/home/diamond/c/s/main.c
+	<avr/io.h>
+	<stdlib.h>
+	<math.h>
+	<util/delay.h>
+

@@ -1,0 +1,4 @@
+sudo avr-gcc -g -Os -mmcu=atmega8 -c main.c
+sudo avr-gcc -g -mmcu=atmega8 -o main.elf main.o
+sudo avr-objcopy -j .text -j .data -O ihex main.elf main.hex
+

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1448666373 source:/home/diamond/c/sts/fuse.c
+	<avr/io.h>
+

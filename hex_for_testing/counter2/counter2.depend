@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1447324656 source:/home/diamond/c/counter2/main.c
+	<avr/io.h>
+
