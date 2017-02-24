@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Pá 24. únor 2017, 12:04:14 CET
+EESchema Schematic File Version 2  date Pá 24. únor 2017, 18:36:20 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4900 950 
+Wire Wire Line
+	4900 750  4900 1100
 Connection ~ 9250 2550
 Connection ~ 6650 2550
 Wire Wire Line
@@ -97,8 +100,6 @@ Wire Wire Line
 	9050 1100 9050 1150
 Wire Wire Line
 	9050 1150 9200 1150
-Wire Wire Line
-	4900 950  4900 1100
 Wire Wire Line
 	4900 1100 5150 1100
 Wire Wire Line
@@ -452,6 +453,27 @@ Connection ~ 7950 1600
 Connection ~ 5400 4900
 Wire Wire Line
 	6650 2400 6500 2400
+Wire Wire Line
+	5700 1150 5700 750 
+Connection ~ 5700 1150
+$Comp
+L CONNECTOR P30
+U 1 1 58B04B82
+P 5700 750
+F 0 "P30" H 6050 850 70  0000 C CNN
+F 1 "CONNECTOR" H 6050 650 70  0000 C CNN
+	1    5700 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P29
+U 1 1 58B04B79
+P 4900 750
+F 0 "P29" H 5250 850 70  0000 C CNN
+F 1 "CONNECTOR" H 5250 650 70  0000 C CNN
+	1    4900 750 
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONNECTOR P28
 U 1 1 58B00F15
@@ -969,8 +991,8 @@ F 1 "CONN_6" V 5650 6850 60  0000 C CNN
 	1    5600 6850
 	1    0    0    -1  
 $EndComp
-Text Label 8550 7350 0    60   ~ 0
-Basic usb_asp programmer with apl. circuit - atmega8
+Text Label 8200 7350 0    60   ~ 0
+Basic usb_asp programmer with apl. circuit - atmega8 + trans.
 $Comp
 L GND #PWR03
 U 1 1 56E6FC1F
