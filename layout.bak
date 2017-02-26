@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Pá 24. únor 2017, 12:04:14 CET
+EESchema Schematic File Version 2  date So 25. únor 2017, 08:55:35 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,11 +32,11 @@ LIBS:valves
 LIBS:layout-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "24 feb 2017"
+Date "25 feb 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +44,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	11400 1000 11200 1000
+Connection ~ 4800 1150
+Wire Wire Line
+	4800 1150 4800 500 
+Wire Wire Line
+	4800 500  11950 500 
+Wire Wire Line
+	11950 500  11950 1000
+Connection ~ 6850 1050
+Wire Wire Line
+	6850 650  10400 650 
+Wire Wire Line
+	6850 650  6850 1450
+Connection ~ 4900 950 
 Connection ~ 9250 2550
 Connection ~ 6650 2550
 Wire Wire Line
@@ -98,9 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1150 9200 1150
 Wire Wire Line
-	4900 950  4900 1100
-Wire Wire Line
-	4900 1100 5150 1100
+	5150 1100 4900 1100
 Wire Wire Line
 	5150 1100 5150 1450
 Connection ~ 6650 3000
@@ -408,8 +421,6 @@ Wire Wire Line
 	6500 3550 6650 3550
 Connection ~ 6650 3550
 Wire Wire Line
-	6850 1450 6850 1050
-Wire Wire Line
 	5900 1450 5150 1450
 Wire Wire Line
 	9200 1800 9050 1800
@@ -452,6 +463,72 @@ Connection ~ 7950 1600
 Connection ~ 5400 4900
 Wire Wire Line
 	6650 2400 6500 2400
+Wire Wire Line
+	5700 1150 5700 750 
+Connection ~ 5700 1150
+Wire Wire Line
+	11950 1000 11800 1000
+Wire Wire Line
+	4900 1100 4900 550 
+Wire Wire Line
+	4900 550  10300 550 
+Wire Wire Line
+	10300 550  10300 1400
+Wire Wire Line
+	10300 1400 11950 1400
+Connection ~ 10800 1400
+Connection ~ 4900 750 
+Wire Wire Line
+	10400 650  10400 1000
+Wire Wire Line
+	10800 1400 10800 1300
+Text Notes 6950 800  0    60   ~ 0
++12V
+$Comp
+L C C6
+U 1 1 58B1309A
+P 11950 1200
+F 0 "C6" H 12000 1300 50  0000 L CNN
+F 1 "C" H 12000 1100 50  0000 L CNN
+	1    11950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 58B12F6B
+P 11600 1000
+F 0 "D2" H 11600 1100 40  0000 C CNN
+F 1 "DIODE" H 11600 900 40  0000 C CNN
+	1    11600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 U1
+U 1 1 58B12F0D
+P 10800 1050
+F 0 "U1" H 10950 854 60  0000 C CNN
+F 1 "7805" H 10800 1250 60  0000 C CNN
+	1    10800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P30
+U 1 1 58B04B82
+P 5700 750
+F 0 "P30" H 6050 850 70  0000 C CNN
+F 1 "CONNECTOR" H 6050 650 70  0000 C CNN
+	1    5700 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR P29
+U 1 1 58B04B79
+P 4900 750
+F 0 "P29" H 5250 850 70  0000 C CNN
+F 1 "CONNECTOR" H 5250 650 70  0000 C CNN
+	1    4900 750 
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONNECTOR P28
 U 1 1 58B00F15
@@ -969,8 +1046,8 @@ F 1 "CONN_6" V 5650 6850 60  0000 C CNN
 	1    5600 6850
 	1    0    0    -1  
 $EndComp
-Text Label 8550 7350 0    60   ~ 0
-Basic usb_asp programmer with apl. circuit - atmega8
+Text Label 12800 10800 0    60   ~ 0
+Basic usb_asp programmer with apl. circuit - atmega8 + trans.
 $Comp
 L GND #PWR03
 U 1 1 56E6FC1F
