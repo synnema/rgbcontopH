@@ -18,7 +18,7 @@ OCR1AL=250;OCR1BL=150;OCR2=250;
 while (1) {
 // tlačítka pro rgb - akvárium
 
-//OCR1AL=200;
+//xOCR1AL=200;
 //OCR1BL=200;
 //OCR2=220;
     if (PIND & (1<<PD2)) {OCR1AL=OCR1AL+1;OCR1BL=OCR1BL+1;OCR2=OCR2+1;_delay_ms(50);}

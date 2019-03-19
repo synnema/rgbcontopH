@@ -1,0 +1,75 @@
+/* klav_disp_pwm */
+#ifndef F_CPU
+#define F_CPU 12000000UL
+#endif
+#include <avr/io.h>
+#include <util/delay.h>
+int main(void)
+{
+DDRB=0b00001110;DDRC=0b00000000;DDRD=0b11111111;
+
+TCCR0=0x00;TCNT0=0x00;TCCR1A=0xA1;TCCR1B=0x09;TCNT1H=0x00;TCNT1L=0x00;
+ICR1H=0x00;ICR1L=0x00;OCR1AH=0x00;
+
+OCR1AL=0;OCR1BH=0x00;
+OCR1BL=0;ASSR=0x00;TCCR2=0x69;TCNT2=0x00;
+OCR2=0;MCUCR=0x00;TIMSK=0x00;ACSR=0x80;SFIOR=0x00;
+
+while(1)
+{
+
+if ((PINC & (1<<PC0)) && (PINC & (1<<PC2))) {OCR1AL=OCR1AL+1;_delay_ms(10);}
+if ((PINC & (1<<PC1)) && (PINC & (1<<PC2))) {OCR1AL=OCR1AL-1;_delay_ms(10);}
+if ((PINC & (1<<PC0)) && (PINC & (1<<PC3))) {OCR1BL=OCR1BL+1;_delay_ms(10);}
+if ((PINC & (1<<PC1)) && (PINC & (1<<PC3))) {OCR1BL=OCR1BL-1;_delay_ms(10);}
+if ((PINC & (1<<PC0)) && (PINC & (1<<PC4))) {OCR2=OCR2+1;_delay_ms(10);}
+if ((PINC & (1<<PC1)) && (PINC & (1<<PC4))) {OCR2=OCR2-1;_delay_ms(10);}
+//if ((PINC & (1<<PC0)) && (PINC & (1<<PC1)) && (PINC & (1<<PC2))) {OCR1AL=0;_delay_ms($
+//if ((PINC & (1<<PC0)) && (PINC & (1<<PC1)) && (PINC & (1<<PC3))) {OCR1BL=0;_delay_ms($
+//if ((PINC & (1<<PC0)) && (PINC & (1<<PC1)) && (PINC & (1<<PC4))) {OCR2=0;_delay_ms(10$
+if ((PINC & (1<<PC0)) && (PINC & (1<<PC1))) {OCR1AL=0;OCR1BL=0;OCR2=0;}
+if ((PINC & (1<<PC3)) && (PINC & (1<<PC4))) {OCR1AL=255;OCR1BL=255;OCR2=255;}
+
+//if (PINC & (1<<PC5)) {PORTD=0b10000000;_delay_ms(100);}
+//if ((PINC & (1<<PC5)) && (PINC & (1<<PC0))) {PORTD=0b00000000;_delay_ms(100);}
+
+if ((OCR1AL+OCR1BL+OCR2)<10){PORTD=0b01111110;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>10) && ((OCR1AL+OCR1BL+OCR2)<100)){PORTD=0b00110000;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>100) && ((OCR1AL+OCR1BL+OCR2)<200)){PORTD=0b01101101;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>200) && ((OCR1AL+OCR1BL+OCR2)<300)){PORTD=0b01111001;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>300) && ((OCR1AL+OCR1BL+OCR2)<400)){PORTD=0b00110011;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>400) && ((OCR1AL+OCR1BL+OCR2)<500)){PORTD=0b01011011;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>500) && ((OCR1AL+OCR1BL+OCR2)<600)){PORTD=0b01011111;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>600) && ((OCR1AL+OCR1BL+OCR2)<650)){PORTD=0b01110000;_delay_ms(100);PORTD=0b00000000;}
+if (((OCR1AL+OCR1BL+OCR2)>650) && ((OCR1AL+OCR1BL+OCR2)<700)){PORTD=0b01111111;_delay_ms(100);PORTD=0b00000000;}
+if ((OCR1AL+OCR1BL+OCR2)>700){PORTD=0b01111011;_delay_ms(100);PORTD=0b00000000;}
+
+//PORTD=0b00110000;_delay_ms(100);
+//PORTD=0b01101101;_delay_ms(100);
+//PORTD=0b01111001;_delay_ms(100);
+//PORTD=0b00110011;_delay_ms(100);
+//PORTD=0b01011011;_delay_ms(100);
+//PORTD=0b01011111;_delay_ms(100);
+//PORTD=0b01110000;_delay_ms(100);
+//PORTD=0b01111111;_delay_ms(100);
+//PORTD=0b01111011;_delay_ms(100);
+
+if (OCR1AL<1) {OCR1AL=1;}
+if (OCR1BL<1) {OCR1BL=1;}
+if (OCR2<1) {OCR2=1;}
+if (OCR1AL>254) {OCR1AL=254;}
+if (OCR1BL>254) {OCR1BL=254;}
+if (OCR2>254) {OCR2=254;}
+
+}
+return(0);
+}
+
+
+
+
+
+
+
+
+
